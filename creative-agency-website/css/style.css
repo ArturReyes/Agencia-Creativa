@@ -47,7 +47,6 @@ section.home {
     background-color: var(--primary-color);
     color: #fff;
     text-decoration: none;
-    box-shadow: 0 4px;
     padding: 10px 30px;
     margin: 20px 0;
     border-radius: 20px;
@@ -346,7 +345,7 @@ section.home {
 
 @media(max-width: 1068px) {
     .home-img {
-        display: none;
+        opacity: 0.3;
     }
 
     .logo {
